@@ -4,9 +4,11 @@ body {
   font-family: sans-serif;
   background: #ffffff;
 }
+
 .inline {
   display: inline;
 }
+
 /* 로고 아래의 선 */
 .line {
   margin: 0 auto;
@@ -228,6 +230,7 @@ div.settings label:after {
   .inline {
     display: block;
   }
+
   .logo {
     width: 30%;
     height: 30%;
@@ -249,6 +252,4 @@ div.settings label:after {
   .box input[type="number"] {
     padding: 12px 12px;
   }
-}
-
 }

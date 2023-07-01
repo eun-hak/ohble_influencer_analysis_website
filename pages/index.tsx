@@ -2,7 +2,7 @@ import { useState } from "react";
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import OhbleLogo from "./images/ohble_logo.png";
-
+// import Kakao from "./api/kakao";
 declare global {
   interface Window {
     Kakao: any;
@@ -17,6 +17,8 @@ export default function Home() {
     age: number;
     gender: string;
   }
+
+  //kakao.ts에 보낸 후 fetch로 여기서 보내주기
   useEffect(() => {
     const script = document.createElement("script");
     script.async = true;
