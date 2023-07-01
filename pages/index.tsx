@@ -30,9 +30,10 @@ export default function Home() {
           console.log("카카오 서버 연결 성공");
         }
       }
+      // _xkAERxj
       window.Kakao.Channel.createChatButton({
         container: "#kakao-talk-channel-chat-button",
-        channelPublicId: "_xkAERxj",
+        channelPublicId: "_tCFxob",
         title: "consult",
         size: "small",
         color: "yellow",
